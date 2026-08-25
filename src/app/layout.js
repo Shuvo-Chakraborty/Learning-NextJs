@@ -1,4 +1,3 @@
-import Navbar from "@/Components/Navbar";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -24,13 +23,13 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
+        {/* <Navbar /> */}
         
       <div className="h-screen">
         {children}
       </div>
 
-      <footer>Copyright © 2023 My App. All rights reserved.</footer>
+      {/* <footer>Copyright © 2023 My App. All rights reserved.</footer> */}
       </body>
     </html>
   );
