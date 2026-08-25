@@ -16,6 +16,13 @@ const Navbar = () => {
         { title: "Blogs", path: "/blogs" },
     ];
 
+    if (pathName.includes("/dashboard")) 
+        return(
+            <div className="bg-gray-100 p-6">Dashboard Layout</div>
+        )
+
+
+
     return (
         <div>
             <nav className="bg-red-600 px-6 py-4 flex justify-between items-center">
