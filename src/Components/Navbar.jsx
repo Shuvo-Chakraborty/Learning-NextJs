@@ -13,7 +13,8 @@ const Navbar = () => {
         { title: "About", path: "/about" },
         { title: "Contacts", path: "/contacts" },
         { title: "Services", path: "/services" },
-        { title: "Blogs", path: "/blogs" },
+        { title: "Categories", path: "/Categories" },
+        
     ];
 
     if (pathName.includes("/dashboard")) 
